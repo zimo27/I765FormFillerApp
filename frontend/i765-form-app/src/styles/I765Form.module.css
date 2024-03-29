@@ -1,0 +1,74 @@
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form {
+    width: 70%; /* Set the width of the form to 70% of the container */
+    /* Add any other styles for your form */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; 
+}
+h3 {
+    margin-bottom: 15px;
+}
+
+.span1 {
+    margin-right: '8px';
+}
+
+.label-container {
+    display: flex;
+    align-items: center; /* Aligns the radio button and text vertically */
+  }
+  
+
+
+  .input-container {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    margin-bottom: 10px; /* Add space between each input container */
+  }
+  
+  .input-container label {
+    margin-bottom: 5px; /* Add some space between label and input */
+  }
+  
+  .input-container input {
+    width: 100%; /* Make input take the full width of its container */
+    padding: 8px; /* Add some padding inside the input box */
+    box-sizing: border-box; /* Include padding and border in the input width */
+  }
+
+label input:not([type="radio"]){
+    margin-top: 8px; /* Adjust the value as needed */
+    display: block; /* This makes the input take a new line */
+}
+/*
+
+.other-names-form {
+    font-family: Arial, sans-serif;
+    max-width: 400px; 
+}
+
+
+
+label > input {
+    width: 100%;
+    margin-top: 5px; 
+}
+
+
+
+p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+*/

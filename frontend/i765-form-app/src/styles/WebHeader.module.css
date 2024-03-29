@@ -1,0 +1,16 @@
+.header {
+    background-color: #87c3cb;
+    padding: 10px 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+  }
+
+  .helperText {
+    font-family: Arial, sans-serif; /* Specify the font family */
+    font-size: 20px; /* Specify the font size */
+    font-weight: bold; /* Specify the font weight */
+    /* Any other font-related properties you want to keep constant */
+  }
